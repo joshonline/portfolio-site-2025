@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <%- include("nav") %>
+    <main>
+      <section id="video-section">
+        <video
+          src="public/videos/intro-video.mp4"
+          controls
+          poster="public/images/poster.jpg"
+          alt="intro-video"
+        ></video>
+      </section>
+      <section id="bio">
+        <h2>Joshua Masanza</h2>
+        <img src="public/images/selfie.jpeg" alt="Joshua Masanza" />
+        <p>
+          Hi, I'm Joshua Masanza. I'm currently pursuing my undergraduate degree
+          in Networking and IT at Ontario Tech University. My academic journey
+          has fueled my passion for designing resilient networks, enhancing IT
+          security, and solving infrastructure challenges.
+        </p>
+        <p>
+          Alongside my networking focus, I've developed a growing interest in
+          software development—especially where it intersects with IT, from
+          automation scripts to full-stack tools that make systems more
+          efficient
+        </p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>Vanilla Web Stack: HTML, CSS, JavaScript</li>
+          <li>JavaScript Frameworks: Node.js, Express.js, React.js</li>
+          <li>Databases: SQLite3, MongoDB</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <img
+        src="public/images/logo.png"
+        alt="Joshua Masanza Logo"
+        width="100"
+        class="logo"
+      />
+      <p>&copy; 2024 Joshua Masanza. All rights reserved.</p>
+      <a href="contact.html">Contact</a>
+    </footer>
+    <%- include("nav") %>
+  </body>
+</html>
