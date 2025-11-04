@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
+    <title><%= title %></title>
   </head>
   <body>
-    <%- include("nav") %>
+    <header>
+      <h1><%= title %></h1>
+    </header>
     <main>
       <section id="video-section">
         <video
           src="public/videos/intro-video.mp4"
           controls
           poster="public/images/poster.jpg"
-          alt="intro-video"
         ></video>
       </section>
       <section id="bio">
@@ -42,16 +44,6 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <img
-        src="public/images/logo.png"
-        alt="Joshua Masanza Logo"
-        width="100"
-        class="logo"
-      />
-      <p>&copy; 2024 Joshua Masanza. All rights reserved.</p>
-      <a href="contact.html">Contact</a>
-    </footer>
-    <%- include("nav") %>
+    <%- include("footer") %>
   </body>
 </html>
