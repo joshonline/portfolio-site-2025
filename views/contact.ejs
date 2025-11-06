@@ -1,38 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <title><%= title %></title>
-  </head>
-  <body>
-    <header>
-      <%- include("nav") %>
-    </header>
-    <section class="welcome">
-      <h1>Contact Me</h1>
-    </section>
-      <main>
-        <section>
-            <h2>Get in Touch</h2>
-            <p>If you'd like to get in touch, please feel free to reach out via email or through my social media channels.</p>
-            <ul>
-                <li>Email: <a href="mailto:joshua.masanza@ontariotechu.net">joshua.masanza@ontariotechu.net</a></li>
-                <li>LinkedIn: <a href="www.linkedin.com/in/joshua-masanza-49499a1b3" target="_blank">www.linkedin.com/in/joshua-masanza-49499a1b3</a></li>
-                <li>GitHub: <a href="https://github.com/joshonline" target="_blank">github.com/joshonline</a></li>
-            </ul>
-          <form action="mailto:joshua.masanza@ontariotechu.net">
-              <label for="name">Name:</label><br>
-              <int type="text" id="name" name="name" placeholder="e.g. John Doe" required><br>
-              <label for="email">Email:</label><br>
-              <input type="email" id="email" name="email" placeholder="e.g. johndoe@example.com" required><br>
-              <label for="message">Message:</label><br>
-              <textarea id="message" name="message" rows="4" required></textarea><br>
-                  <input type="submit" value="Email Me"> 
-          </section>
-        </form>
-    </main>
-    <%- include("footer") %>
-  </body>
-</html>
+<section>
+<h1>Contact Me</h1>
+</section>
+<section>
+  <h2>Get in Touch</h2>
+  <p>If you'd like to get in touch, please feel free to reach out via email or through my social media channels.</p>
+  <ul>
+      <li>Email: <a href="mailto:joshua.masanza@ontariotechu.net">joshua.masanza@ontariotechu.net</a></li>
+      <li>LinkedIn: <a href="www.linkedin.com/in/joshua-masanza-49499a1b3" target="_blank">www.linkedin.com/in/joshua-masanza-49499a1b3</a></li>
+      <li>GitHub: <a href="https://github.com/joshonline" target="_blank">github.com/joshonline</a></li>
+  </ul>
+  <form action="mailto:joshua.masanza@ontariotechu.net">
+      <label for="name">Name:</label><br>
+      <int type="text" id="name" name="name" placeholder="e.g. John Doe" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="e.g. johndoe@example.com" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <input type="submit" value="Email Me"> 
+    </form>
+</section>

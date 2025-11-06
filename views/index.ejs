@@ -1,80 +1,69 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-  </head>
-  <body>
-    <header><%- include("nav") %></header>
-    <main>
-      <section class="welcom">
-        <h1>Welcome to Joshua Masanza's Portfolio</h1>
-      </section>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          I'm Joshua Masanza, a Networking & IT enthusiast with a sharp eye for
-          building secure, reliable systems.
-        </p>
+<section class="welcome">
+  <h1>Welcome to Joshua Masanza's Portfolio</h1>
+</section>
 
-        <p>
-          Whether it's designing infrastructure, troubleshooting complex
-          networks, or exploring how software can enhance IT solutions, I thrive
-          on connecting the dots that keep technology running smoothly. Always
-          learning, always building. I'm passionate about turning ideas into
-          practical, working systems.
-        </p>
-      </section>
-      <section>
-        <h2>Featured Projects</h2>
-        <div class="project-content featured">
-          <h3 class="project-title">Bubble Note (Ongoing)</h3>
-          <p class="project-description">
-            An experimental note-taking app in progress, focused on simplicity
-            and playful design. More details coming soon.
-          </p>
+<section>
+  <h2>About Me</h2>
+  <p>
+    I'm Joshua Masanza, a Networking & IT enthusiast with a sharp eye for
+    building secure, reliable systems.
+  </p>
 
-          <div class="project-links" class="" project-tags>
-            <li>
-              <a
-                href="https://github.com/joshonline/Bubble-Note-Client"
-                target="_blank"
-                >GitHub - Client Repo</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/joshonline/Bubble-Note-Server"
-                target="_blank"
-                >GitHub - Server Repo</a
-              >
-            </li>
-          </div>
-        </div>
+  <p>
+    Whether it's designing infrastructure, troubleshooting complex networks, or
+    exploring how software can enhance IT solutions, I thrive on connecting the
+    dots that keep technology running smoothly. Always learning, always
+    building. I'm passionate about turning ideas into practical, working
+    systems.
+  </p>
+</section>
 
-        <div class="project-content featured">
-          <h3 class="project-title">Accomodation Management System</h3>
-          <p class="project-description">
-            A Python-based accommodation management system with a modern GUI
-            built using CustomTkinter. It supports user authentication,
-            reservations, suite management, and payment tracking, with JSON
-            storage for persistent data. Designed for modularity and future
-            scalability, the system demonstrates practical use of role-based
-            access control and clean project structure.
-          </p>
+<!-- Featured projects -->
+<section>
+  <h2>Featured Projects</h2>
+  <div class="project-content featured">
+    <h3 class="project-title">Bubble Note (Ongoing)</h3>
+    <p class="project-description">
+      An experimental note-taking app in progress, focused on simplicity and
+      playful design. More details coming soon.
+    </p>
 
-          <div class="project-links" class="project-tags">
-            <li>
-              <a
-                href="https://github.com/joshonline/hotel-management-system"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-          </div>
-        </div>
-      </section>
-    </main>
-    <%- include("footer") %>
-  </body>
-</html>
+    <div class="project-links" class="" project-tags>
+      <li>
+        <a
+          href="https://github.com/joshonline/Bubble-Note-Client"
+          target="_blank"
+          >GitHub - Client Repo</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/joshonline/Bubble-Note-Server"
+          target="_blank"
+          >GitHub - Server Repo</a
+        >
+      </li>
+    </div>
+  </div>
+
+  <div class="project-content featured">
+    <h3 class="project-title">Accomodation Management System</h3>
+    <p class="project-description">
+      A Python-based accommodation management system with a modern GUI built
+      using CustomTkinter. It supports user authentication, reservations, suite
+      management, and payment tracking, with JSON storage for persistent data.
+      Designed for modularity and future scalability, the system demonstrates
+      practical use of role-based access control and clean project structure.
+    </p>
+
+    <div class="project-links" class="project-tags">
+      <li>
+        <a
+          href="https://github.com/joshonline/hotel-management-system"
+          target="_blank"
+          >GitHub</a
+        >
+      </li>
+    </div>
+  </div>
+</section>
