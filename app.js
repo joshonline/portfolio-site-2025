@@ -5,6 +5,8 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var expressLayouts = require("express-ejs-layouts");
 
+var siteConfig = require("./public/javascripts/site");
+
 var indexRouter = require("./routes/index");
 var aboutRouter = require("./routes/about");
 var projectRouter = require("./routes/projects");
@@ -28,6 +30,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
+
+// site config
+app.use(function (req, res, next) {
+  res.locals.contacts = siteConfig.contacts;
+  next();
+});
 
 // Routes
 app.use("/", indexRouter);
