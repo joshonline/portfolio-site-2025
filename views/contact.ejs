@@ -5,11 +5,11 @@
   <h2>Get in Touch</h2>
   <p>If you'd like to get in touch, please feel free to reach out via email or through my social media channels.</p>
   <ul>
-      <li>Email: <a href="mailto:joshua.masanza@ontariotechu.net">joshua.masanza@ontariotechu.net</a></li>
-      <li>LinkedIn: <a href="www.linkedin.com/in/joshua-masanza-49499a1b3" target="_blank">www.linkedin.com/in/joshua-masanza-49499a1b3</a></li>
-      <li>GitHub: <a href="https://github.com/joshonline" target="_blank">github.com/joshonline</a></li>
+      <li>Email: <a href="mailto:<%= contacts.email %>"><%= contacts.email %></a></li>
+      <li>LinkedIn: <a href=<%= contacts.linkedin %> target="_blank"><%= contacts.linkedin %></a></li>
+      <li>GitHub: <a href=<%= contacts.github %> target="_blank"><%= contacts.github %> </a></li>
   </ul>
-  <form action="mailto:joshua.masanza@ontariotechu.net">
+  <form action="mailto:<%= contacts.email %>">
       <label for="name">Name:</label><br>
       <int type="text" id="name" name="name" placeholder="e.g. John Doe" required><br>
       <label for="email">Email:</label><br>
