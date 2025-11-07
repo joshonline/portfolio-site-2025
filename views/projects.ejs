@@ -1,159 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <title><%= title %></title>
-  </head>
-  <body>
-    <%- include("nav") %>
-    <header>
-      <h1>My Projects</h1>
-    </header>
-    <main>
-      <!-- Bubble Note (Ongoing) -->
-      <div class="project-card" class="coming-soon">
-        <!-- <img src="project-thumbnail.jpg" alt="Project preview" class="project-image" /> -->
+<section class="welcome"><h1>My Projects</h1></section>
+<section>
+  <!-- Bubble Note (Ongoing) -->
+  <div class="project-card" class="coming-soon">
+    <!-- <img src="project-thumbnail.jpg" alt="Project preview" class="project-image" /> -->
 
-        <div class="project-content">
-          <h2 class="project-title">Bubble Note (Ongoing)</h2>
-          <p class="project-description">
-            An experimental note-taking app in progress, focused on simplicity
-            and playful design. More details coming soon.
-          </p>
+    <div class="project-content">
+      <h2 class="project-title">Bubble Note (Ongoing)</h2>
+      <p class="project-description">
+        An experimental note-taking app in progress, focused on simplicity and
+        playful design. More details coming soon.
+      </p>
 
-          <ul class="project-tags">
-            <li>React.js</li>
-            <li>Node.js/Express.js</li>
-            <li>MongoDB</li>
-          </ul>
+      <ul class="project-tags">
+        <li>React.js</li>
+        <li>Node.js/Express.js</li>
+        <li>MongoDB</li>
+      </ul>
 
-          <div class="project-links" class="" project-tags>
-            <li>
-              <a
-                href="https://github.com/joshonline/Bubble-Note-Client"
-                target="_blank"
-                >GitHub - Client Repo</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/joshonline/Bubble-Note-Server"
-                target="_blank"
-                >GitHub - Server Repo</a
-              >
-            </li>
-          </div>
-        </div>
+      <div class="project-links" class="" project-tags>
+        <li>
+          <a
+            href="https://github.com/joshonline/Bubble-Note-Client"
+            target="_blank"
+            >GitHub - Client Repo</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/joshonline/Bubble-Note-Server"
+            target="_blank"
+            >GitHub - Server Repo</a
+          >
+        </li>
       </div>
+    </div>
+  </div>
 
-      <!-- Winter2025 Term Project -->
-      <div class="project-card">
-        <img
-          src="/images/AMS-project-screenshot.png"
-          alt="Project preview"
-          class="project-image"
-        />
+  <!-- Winter2025 Term Project -->
+  <div class="project-card">
+    <img
+      src="/images/AMS-project-screenshot.png"
+      alt="Project preview"
+      class="project-image"
+    />
 
-        <div class="project-content">
-          <h2 class="project-title">Accomodation Management System</h2>
-          <p class="project-description">
-            A Python-based accommodation management system with a modern GUI
-            built using CustomTkinter. It supports user authentication,
-            reservations, suite management, and payment tracking, with JSON
-            storage for persistent data. Designed for modularity and future
-            scalability, the system demonstrates practical use of role-based
-            access control and clean project structure.
-          </p>
+    <div class="project-content">
+      <h2 class="project-title">Accomodation Management System</h2>
+      <p class="project-description">
+        A Python-based accommodation management system with a modern GUI built
+        using CustomTkinter. It supports user authentication, reservations,
+        suite management, and payment tracking, with JSON storage for persistent
+        data. Designed for modularity and future scalability, the system
+        demonstrates practical use of role-based access control and clean
+        project structure.
+      </p>
 
-          <ul class="project-tags">
-            <li>Python</li>
-            <li>CustomTkinter</li>
-            <li>GUI</li>
-            <li>JSON Storage</li>
-            <li>Role-Based Access Control</li>
-            <li>OOP Principles</li>
-          </ul>
+      <ul class="project-tags">
+        <li>Python</li>
+        <li>CustomTkinter</li>
+        <li>GUI</li>
+        <li>JSON Storage</li>
+        <li>Role-Based Access Control</li>
+        <li>OOP Principles</li>
+      </ul>
 
-          <div class="project-links" class="project-tags">
-            <li>
-              <a
-                href="https://github.com/joshonline/hotel-management-system"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-          </div>
-        </div>
+      <div class="project-links" class="project-tags">
+        <li>
+          <a
+            href="https://github.com/joshonline/hotel-management-system"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
       </div>
+    </div>
+  </div>
 
-      <!-- Linux Backup Script -->
-      <div class="project-card">
-        <img
-          src="/images/Fedora-backup-script.png"
-          alt="Project preview"
-          class="project-image"
-        />
+  <!-- Linux Backup Script -->
+  <div class="project-card">
+    <img
+      src="/images/Fedora-backup-script.png"
+      alt="Project preview"
+      class="project-image"
+    />
 
-        <div class="project-content">
-          <h2 class="project-title">Automated Linux Backup</h2>
-          <p class="project-description">
-            A set of custom Bash scripts for automating backups on both Ubuntu
-            and Fedora systems. The scripts leverage rsync for efficient Home
-            directory synchronization and integrate system-aware handling of
-            different file system structures. This project strengthened my
-            knowledge of Linux internals, file hierarchies, and shell scripting
-            best practices. I continue to refine and expand these scripts for
-            enhanced functionality and reliability.
-          </p>
+    <div class="project-content">
+      <h2 class="project-title">Automated Linux Backup</h2>
+      <p class="project-description">
+        A set of custom Bash scripts for automating backups on both Ubuntu and
+        Fedora systems. The scripts leverage rsync for efficient Home directory
+        synchronization and integrate system-aware handling of different file
+        system structures. This project strengthened my knowledge of Linux
+        internals, file hierarchies, and shell scripting best practices. I
+        continue to refine and expand these scripts for enhanced functionality
+        and reliability.
+      </p>
 
-          <ul class="project-tags">
-            <li>Linux</li>
-            <li>Bash</li>
-            <li>Shell Scripting</li>
-            <li>Automation</li>
-            <li>Rsync</li>
-            <li>Ubuntu</li>
-            <li>Fedora</li>
-          </ul>
+      <ul class="project-tags">
+        <li>Linux</li>
+        <li>Bash</li>
+        <li>Shell Scripting</li>
+        <li>Automation</li>
+        <li>Rsync</li>
+        <li>Ubuntu</li>
+        <li>Fedora</li>
+      </ul>
 
-          <!-- <div class="project-links" class=""project-tags>
+      <!-- <div class="project-links" class=""project-tags>
                         <li><a href="https://github.com/username/project" target="_blank">GitHub</a></li>
                     </div> -->
-        </div>
-      </div>
+    </div>
+  </div>
 
-      <!-- Local Library WebApp - MDN Tutorial -->
-      <div class="project-card">
-        <!-- <img src="project-thumbnail.jpg" alt="Project preview" class="project-image" /> -->
+  <!-- Local Library WebApp - MDN Tutorial -->
+  <div class="project-card">
+    <!-- <img src="project-thumbnail.jpg" alt="Project preview" class="project-image" /> -->
 
-        <div class="project-content">
-          <h2 class="project-title">Local Library WebApp</h2>
-          <p class="project-description">
-            A Node.js + Express web application built as part of MDN's Learn Web
-            Development course. The project manages a fictional library's book
-            catalog with full CRUD functionality, using MongoDB for storage and
-            Express routing for dynamic content. It served as a practical
-            introduction to server-side rendering, RESTful APIs, and MVC
-            architecture.
-          </p>
+    <div class="project-content">
+      <h2 class="project-title">Local Library WebApp</h2>
+      <p class="project-description">
+        A Node.js + Express web application built as part of MDN's Learn Web
+        Development course. The project manages a fictional library's book
+        catalog with full CRUD functionality, using MongoDB for storage and
+        Express routing for dynamic content. It served as a practical
+        introduction to server-side rendering, RESTful APIs, and MVC
+        architecture.
+      </p>
 
-          <ul class="project-tags">
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>npm basics</li>
-            <li>MongoDB</li>
-            <li>MVC</li>
-            <li>RESTful APIs</li>
-          </ul>
+      <ul class="project-tags">
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>npm basics</li>
+        <li>MongoDB</li>
+        <li>MVC</li>
+        <li>RESTful APIs</li>
+      </ul>
 
-          <!-- <div class="project-links" class=""project-tags>
+      <!-- <div class="project-links" class=""project-tags>
                     <li><a href="https://github.com/username/project" target="_blank">GitHub</a></li>
                 </div> -->
-        </div>
-      </div>
-    </main>
-    <%- include("footer") %>
-  </body>
-</html>
+    </div>
+  </div>
+</section>
