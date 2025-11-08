@@ -1,59 +1,80 @@
 <div class="container py-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <h1 class="mb-4">About Me</h1>
+  <!-- Page Header -->
+  <div class="text-center mb-5">
+    <h1 class="display-4"><%= title %></h1>
+  </div>
 
-      <div class="card shadow-sm mb-4">
-        <div class="card-body">
-          <p class="lead">
-            I'm Joshua Masanza, a Networking & IT enthusiast with a sharp eye
-            for building secure, reliable systems.
-          </p>
-          <p>
-            Whether it's designing infrastructure, troubleshooting complex
-            networks, or exploring how software can enhance IT solutions, I
-            thrive on connecting the dots that keep technology running smoothly.
-          </p>
-          <p class="mb-0">
-            Always learning, always building. I'm passionate about turning ideas
-            into practical, working systems.
-          </p>
+  <!-- Video Section -->
+  <div class="row mb-5">
+    <div class="col-lg-10 mx-auto">
+      <div class="ratio ratio-16x9">
+        <video
+          src="/videos/intro-video.mp4"
+          controls
+          poster="/images/poster.jpg"
+          class="rounded shadow"
+        ></video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bio Section -->
+  <div class="row mb-5">
+    <div class="col-lg-8 mx-auto">
+      <div class="card shadow-sm">
+        <div class="card-body p-4">
+          <div class="row">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+              <img
+                src="/images/selfie.jpeg"
+                alt="Joshua Masanza"
+                class="img-fluid rounded-circle shadow-sm"
+                style="max-width: 200px"
+              />
+            </div>
+            <div class="col-md-8">
+              <h2 class="mb-3">Joshua Masanza</h2>
+              <p>
+                Hi, I'm Joshua Masanza. I'm currently pursuing my undergraduate
+                degree in Networking and IT at Ontario Tech University. My
+                academic journey has fueled my passion for designing resilient
+                networks, enhancing IT security, and solving infrastructure
+                challenges.
+              </p>
+              <p class="mb-0">
+                Alongside my networking focus, I've developed a growing interest
+                in software development—especially where it intersects with IT,
+                from automation scripts to full-stack tools that make systems
+                more efficient.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <h2 class="h4 mb-3">Skills & Technologies</h2>
+  <!-- Skills Section -->
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
       <div class="card shadow-sm">
-        <div class="card-body">
+        <div class="card-body p-4">
+          <h2 class="mb-4">Skills</h2>
           <div class="row g-3">
             <div class="col-md-6">
-              <h3 class="h6 text-primary mb-2">Programming & Development</h3>
-              <ul class="list-unstyled">
-                <li><i class="fas fa-check-circle text-success"></i> Python</li>
-                <li>
-                  <i class="fas fa-check-circle text-success"></i> JavaScript
-                  (Node.js, React)
-                </li>
-                <li>
-                  <i class="fas fa-check-circle text-success"></i> Bash/Shell
-                  Scripting
-                </li>
-              </ul>
+              <span class="badge bg-primary p-2 mb-2 me-2">Python</span>
+              <span class="badge bg-primary p-2 mb-2 me-2">HTML</span>
+              <span class="badge bg-primary p-2 mb-2 me-2">CSS</span>
+              <span class="badge bg-primary p-2 mb-2 me-2">JavaScript</span>
             </div>
             <div class="col-md-6">
-              <h3 class="h6 text-primary mb-2">Infrastructure & Systems</h3>
-              <ul class="list-unstyled">
-                <li>
-                  <i class="fas fa-check-circle text-success"></i> Linux
-                  (Ubuntu, Fedora)
-                </li>
-                <li>
-                  <i class="fas fa-check-circle text-success"></i> Networking
-                </li>
-                <li>
-                  <i class="fas fa-check-circle text-success"></i> System
-                  Administration
-                </li>
-              </ul>
+              <span class="badge bg-success p-2 mb-2 me-2">Node.js</span>
+              <span class="badge bg-success p-2 mb-2 me-2">Express.js</span>
+              <span class="badge bg-success p-2 mb-2 me-2">React.js</span>
+            </div>
+            <div class="col-12">
+              <span class="badge bg-info p-2 mb-2 me-2">SQLite3</span>
+              <span class="badge bg-info p-2 mb-2 me-2">MongoDB</span>
             </div>
           </div>
         </div>
