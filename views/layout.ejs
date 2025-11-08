@@ -17,7 +17,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-    <title><%= title %></title>
+    <title>
+      <%= typeof title != 'undefined' ? title : 'Joshua Masanza Portfolio' %>
+    </title>
   </head>
   <body>
     <%- include('nav') %>
