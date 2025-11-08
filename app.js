@@ -34,6 +34,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // site config
 app.use(function (req, res, next) {
   res.locals.contacts = siteConfig.contacts;
+  res.locals.projects = siteConfig.projects;
   next();
 });
 
