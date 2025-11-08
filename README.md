@@ -4,6 +4,11 @@
 
 My personal portfolio website built with Node.js, Express, and Bootstrap.
 
+## Links
+
+Deployment: https://portfolio-site-2025.onrender.com/
+Repository: https://github.com/joshonline/portfolio-site-2025
+
 ## What's Inside
 
 - **Home**: Quick intro and featured projects
@@ -32,7 +37,6 @@ Then visit `http://localhost:3000`
 - `/routes` - Page routes
 - `/views` - EJS templates
 - `/public` - Static files (CSS, images, etc.)
-- `/config` - Site configuration (contacts, projects, etc.)
 
 ## Git Workflow
 
